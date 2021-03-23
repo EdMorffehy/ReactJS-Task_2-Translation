@@ -1,0 +1,138 @@
+/*aboutUS text*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main div{
+    font-size: 40px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+    font-weight: bold;
+
+
+}
+
+.sp{
+    width: 50px;
+    margin: 0px auto;
+    border-bottom: 5px solid rgb(123, 108, 99);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main p{
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+    line-height: 1.67;
+}
+/*text end*/
+
+/*info Block*/
+.i_block_main{
+    display: flex;
+    margin-top:50px;
+    padding-left:50px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 20px;
+}
+.i_title{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin-top:100px;
+}
+
+.i_text_1{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.875;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.i_text_2{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.875;
+}
+
+.i_div_1{
+    width:50%;
+}
+
+.i_div_2{
+    width: 50%;
+}
+.imagesBlock{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../images/aboutUsImg.png");
+    background-size: cover;
+}
+
+.i_block_main button{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.875;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.i_block_main button:hover{
+    background-color: #262626;
+}
+/*info Block end*/
+
+
+
+
+
+
+/*@media*/
+@media all and (min-width: 375px) and (max-width: 425px){
+    .main div {
+        font-size: 20px;
+    }
+    .main p {
+        font-size: 15px;
+    }
+}
+/*@media all and (min-width: 768px) and (max-width: 900px){*/
+/*    .i_div_1{*/
+/*        width:40%;*/
+/*    }*/
+
+/*    .i_div_2{*/
+/*        width: 60%;*/
+/*    }*/
+/*}*/
+/*@media all and (min-width: 650px) and (max-width: 768px){*/
+/*    .i_div_1{*/
+/*        width:30%;*/
+/*    }*/
+
+/*    .i_div_2{*/
+/*        width: 70%;*/
+/*    }*/
+/*}*/
+
+/*@media end*/

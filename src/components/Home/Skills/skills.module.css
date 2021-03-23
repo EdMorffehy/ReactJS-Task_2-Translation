@@ -1,0 +1,50 @@
+.skills{
+    width: 100%;
+    background-image: url("../../../images/SkillsBg 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color:white;
+    opacity: 2;
+    margin-top:20px;
+}
+
+.progress{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+    /*width:350px;*/
+    /*height: 350px;*/
+}
+.test{
+    width: 150px!important;
+    color:white!important;
+    border-color: white!important;
+    margin:0px 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*stroke:black!important;*/
+}
+
+.ourSkil{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: #262626;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.blockProgress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+

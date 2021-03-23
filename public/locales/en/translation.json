@@ -1,0 +1,19 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Partfolio",
+    "team": "Team",
+    "blog": "BLOG",
+    "contact": "Contact"
+  },
+  "aboutText": {
+    "title": "KNOW ABOUT US",
+    "text1":"Nam libet tempor cum soluta nobis eleifend option" ,
+    "text2": "scongue nihil imperdiet doming id quod mazim"
+  },
+  "slider": {
+    "title": "GRAB YOUR COPY OF",
+    "btnName": "DAWNLOAD"
+  }
+}

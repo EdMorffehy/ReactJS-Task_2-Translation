@@ -1,0 +1,85 @@
+/*header*/
+.header{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    padding:20px 0px;
+    justify-content: space-around;
+}
+/*header-end*/
+
+/*logo*/
+.logo{
+    font-size: 47.644px;
+    font-family: "Oleo Script";
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+.navLogo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*logo-end*/
+
+/*navBar*/
+.nav{
+    display: flex;
+}
+.nav ul{
+    padding: 0px 10px;
+}
+.nav a{
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-decoration: none;
+}
+.active{
+    border-bottom: 5px solid rgb(123, 108, 99);
+    padding-bottom: 5px;
+}
+.nav a:hover{
+    border-bottom: 5px solid rgb(123, 108, 99);
+    padding-bottom: 5px;
+}
+/*navBar-end*/
+
+/*@media*/
+@media all  and (max-width: 767px) {
+    .header{
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding-top:5px;
+    }
+    .nav a{
+        padding:5px;
+        /*border-radius:5px;*/
+        line-height: 2.4;
+    }
+}
+/*@media-end*/
+
+.navBar button{
+    width: 32px;
+    height:32px;
+    border-radius: 5px;
+}
+.navBar img{
+    cursor: pointer;
+    width: 100%;
+    height:100%;
+}
+
+.language{
+    display: flex;
+    color:white;
+}
+
+.language div{
+    margin:0px 5px;
+}

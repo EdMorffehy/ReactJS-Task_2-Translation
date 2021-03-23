@@ -1,0 +1,62 @@
+/*text  block*/
+.services{
+    margin-top: 70px;
+}
+.textBlock div{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.textBlock p{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.875;
+    text-align: center;
+}
+
+/*text block end*/
+
+/*services Blocks*/
+.mainBlock{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding:10px;
+    width: 300px;
+}
+
+.card div{
+    text-align: center;
+    margin-top:20px;
+}
+
+.cardTitle{
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    line-height: 1.664;
+}
+.cardText{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(148, 148, 148);
+    line-height: 1.5;
+}
+
+/*services block end*/

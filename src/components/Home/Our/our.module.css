@@ -1,0 +1,138 @@
+/*our*/
+/*.our{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.our{
+    padding:50px 0px;
+}
+/*ourText*/
+
+.textOur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textOur h1{
+    font-size: 40px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.198;
+}
+
+.textOur span{
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+    line-height: 1.67;
+    text-align: center;
+}
+
+.sp{
+    width: 50px;
+    margin: 0px auto;
+    border-bottom: 5px solid rgb(123, 108, 99);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgBlock{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    position: relative;
+}
+
+.imgBlock img{
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0px 50px;
+    padding-top:20px;
+}
+
+.cardTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    border:3px solid #E4E4E4;
+}
+
+.name{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+
+.job{
+    font-size: 14px;
+    font-family: "OratorStd";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2.143;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imgBlock:hover .image {
+    opacity: 0.3;
+}
+
+.imgBlock:hover .middle {
+    opacity: 1;
+}
+
+.cardTexts:hover {
+    border:3px solid black!important;
+}
+.icons{
+    display: flex;
+}
+
+.fb:hover{
+    font-size:40px;
+}
+
+.tw:hover{
+    font-size:40px;
+}
+
+.in:hover{
+    font-size:40px;
+}
+
+@media all  and (max-width: 950px) {
+    .imgBlock{
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        position: relative;
+    }
+}

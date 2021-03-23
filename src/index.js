@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {Suspense, useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import "./i18n";
+import store from "./redux/store/store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Suspense fallback={<div className="lds-circle"><div></div>
+          Loading...
+      </div>}>
+          <Provider store={store}>
+              <App />
+          </Provider>
+      </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

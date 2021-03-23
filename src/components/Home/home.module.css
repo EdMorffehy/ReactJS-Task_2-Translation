@@ -1,0 +1,137 @@
+/*slider*/
+.img1 {
+    background-image: url("../../images/headImg1.png");
+    background-color: rgb(0, 0, 0);
+    /*opacity: 0.8;*/
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2 {
+    background-image: url("../../images/headImg2.png");
+    background-color: rgb(0, 0, 0);
+    /*opacity: 0.8;*/
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3 {
+    background-image: url("../../images/headImg3.png");
+    background-color: rgb(0, 0, 0);
+    /*opacity: 0.8;*/
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title{
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+
+.text{
+    font-size: 62px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.136;
+}
+
+.text span{
+    color:#7B6C63;
+}
+
+.btn{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.102);
+    display: inline-block;
+    /*padding:15px 55px;*/
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    margin-top:30px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #272822;
+}
+.btn label{
+    padding:15px 55px;
+    cursor:pointer;
+    display: block;
+}
+
+.file {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    display: none;
+}
+
+.slideTextBlock{
+    width: 800px;
+    padding:100px 100px;
+}
+/*slider-end*/
+
+
+
+
+
+
+/*@media*/
+@media all  and (max-width: 950px) {
+    .slideTextBlock{
+        width: 600px;
+        padding:50px 50px;
+    }
+    .text{
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 610px){
+    .slideTextBlock{
+        width: 400px;
+        padding:40px 40px;
+    }
+    .text{
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 485px){
+    .slideTextBlock{
+        width: 300px;
+        padding:20px 20px;
+    }
+    .text{
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 375px) {
+    .slideTextBlock {
+        width: 200px;
+        padding: 10px 10px;
+    }
+
+    .text {
+        font-size: 26px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .btn label{
+        padding: 7px 35px;
+    }
+}
+
+/*@media end*/
+
+
